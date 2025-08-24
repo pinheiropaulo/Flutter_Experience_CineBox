@@ -32,6 +32,7 @@ migrate_working_dir/
 #.vscode/
 
 # Flutter/Dart/Pub related
+# Arquivos e pastas do Dart e Flutter
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -40,6 +41,10 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.packages
+
+# O pubspec.lock DEVE ser versionado para garantir que todos os
+# desenvolvedores usem as mesmas versões de pacotes.
 
 # Symbolication related
 app.*.symbols
@@ -51,3 +56,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Arquivos gerados pelo build_runner
+# Isso impede que arquivos como *.g.dart e *.freezed.dart sejam versionados.
+# Cada desenvolvedor deve gerar esses arquivos em sua máquina local.
+*.g.dart
+*.freezed.dart
