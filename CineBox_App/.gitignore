@@ -18,6 +18,14 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# FVM Version Cache
+.fvm/
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
+
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
