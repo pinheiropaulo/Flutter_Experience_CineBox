@@ -21,7 +21,7 @@ Siga os passos abaixo para ter um ambiente de desenvolvimento rodando:
 1.  Clone o repositório:
 
     ```sh
-    git clone https://seu-repositorio.com/cinebox.git
+    git clone https://github.com/pinheiropaulo/Flutter_Experience_CineBox
     ```
 2.  Entre no diretório do projeto:
 
@@ -71,6 +71,8 @@ Siga os passos abaixo para ter um ambiente de desenvolvimento rodando:
 *   **json_annotation**: Anotações para o `json_serializable` para facilitar a conversão de/para JSON.
 *   **dio**: Um poderoso cliente HTTP para Dart, que suporta interceptadores, FormData, cancelamento de requisições, etc.
 *   **loading_animation_widget**: Fornece uma coleção de belos widgets de animação de carregamento.
+*   **flutter_secure_storage**: Para armazenamento seguro e persistente de dados (como tokens de autenticação).
+*   **google_sign_in**: Permite a integração com o login do Google para autenticação de usuários.
 
 ### Dependências de Desenvolvimento (`dev_dependencies`)
 
