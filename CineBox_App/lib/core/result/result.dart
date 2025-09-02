@@ -4,6 +4,7 @@ class Unit {}
 
 class Success<T> extends Result<T> {
   final T value;
+
   Success(this.value);
 }
 
